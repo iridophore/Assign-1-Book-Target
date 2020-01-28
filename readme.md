@@ -14,3 +14,5 @@
  
                                       
 # Assign-1-Book-Target
+
+![Front cover of book image target](/"Book Image Targets"/book_front_orig.png)
