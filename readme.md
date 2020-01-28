@@ -15,4 +15,4 @@
                                       
 # Assign-1-Book-Target
 
-![Front cover of book image target](/"Book Image Targets"/book_front_orig.png)
+![Front cover of book image target](https://github.com/iridophore/Assign-1-Book-Target/tree/master/Book%20Image%20Targets/book_front_orig.png)
