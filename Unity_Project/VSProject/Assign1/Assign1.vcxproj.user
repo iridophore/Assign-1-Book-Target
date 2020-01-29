@@ -8,4 +8,7 @@
     <DebuggerFlavor>UWPRemoteDebugger</DebuggerFlavor>
     <DebuggerMachineName>10.0.0.193</DebuggerMachineName>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Master|Win32'">
+    <DebuggerType>NativeWithManagedCore</DebuggerType>
+  </PropertyGroup>
 </Project>
