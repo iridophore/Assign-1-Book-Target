@@ -15,5 +15,5 @@
                                       
 # Assign-1-Book-Target
 
-![Alternative text](https://github.com/iridophore/Assign-1-Book-Target/tree/master/Book%20Image%20Targets/book_front.png)
+![Alternative text](Book%20Image%20Targets/book_front.png)
 ![Back  cover of book image target](https://github.com/iridophore/Assign-1-Book-Target/tree/master/Book%20Image%20Targets/book_back.png)
