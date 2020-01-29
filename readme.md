@@ -1,7 +1,7 @@
 
 
                                          Project One
-#                                Augmented Reality Book Cover 
+#                              Augmented Reality Book Cover
 
                                          Jody Smith
                                     Vanderbilt University
