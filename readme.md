@@ -17,6 +17,7 @@
 
                                                    AR View of Book 
 ![AR View of Book](ARView1.png)
+![AR View of Book](ARView2.png)
 
 Front cover of book image target
 ![Front cover of book image target](Book%20Image%20Targets/book_front.png)
