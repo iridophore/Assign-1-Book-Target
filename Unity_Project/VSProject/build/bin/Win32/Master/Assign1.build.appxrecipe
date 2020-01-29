@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FXRND14145</Machine>
+    <WindowsUser>jodys</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Master|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>30980497-b7ee-45bf-b9a9-b86a2a2d61a3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Vanderbilt University</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\obj\Assign1\Win32\Master\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\bin\Win32\Master\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\bin\Win32\Master\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\bin\Win32\Master\Assign1.exe">
+      <PackagePath>Assign1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Players\UAP\il2cpp\x86\Master\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Players\UAP\il2cpp\x86\Master\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\bin\Win32\Master\Assign1.winmd">
+      <PackagePath>Assign1.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+      <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\StreamingAssets\Vuforia\Spillover_Assets.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\Spillover_Assets.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\2.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\2.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.5\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.5\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\config">
+      <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\browscap.ini">
+      <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\2.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.5\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\StreamingAssets\Vuforia\Spillover_Assets.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\Spillover_Assets.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\VuforiaWrapper.dll">
+      <PackagePath>VuforiaWrapper.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\Assign1\Vuforia.dll">
+      <PackagePath>Vuforia.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\bin\Win32\Master\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jodys\Vandy\Courses\CS8395 - Augmented Reality\Projects\Assign1\VSProject\build\bin\Win32\Master\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
